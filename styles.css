@@ -1,0 +1,48 @@
+h1 {
+  font-weight: normal;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+
+#page-banner {
+  background: #eee;
+  padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#item-list {
+  margin: 30px;
+}
+
+#item-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#item-list li {
+  padding: 20px;
+  border-left: 5px solid #ddd;
+  margin: 20px 10px;
+}
+
+.delete {
+  float: right;
+  background: #9361bf;
+  padding: 6px;
+  border-radius: 4px;
+}
